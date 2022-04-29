@@ -1,0 +1,1 @@
+import './static/css/compiled-tailwind.min.css';
