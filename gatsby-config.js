@@ -8,20 +8,20 @@ const path = require(`path`);
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "",
-    description: "",
-    author: "",
+    title: "Shinigami Sins",
+    description: "Shinigami Sins NFT",
+    author: "CreativeMinds NFT",
     socialLinks : [
       {
-        alt: "Like us on Facebook",
-        icon: "facebook-f",
-        link: ""
+        alt: "Follow us on Twitter",
+        icon: "twitter",
+        link: "https://twitter.com/sins_shinigami"
       },
       {
-        alt: "Follow us on Twitter",
-        icon: "twitter-t",
-        link: ""
-      }
+        alt: "Join our Discord",
+        icon: "discord",
+        link: "https://discord.com/invite/C4QB9M8bka"
+      },
     ]
   },
   plugins: [

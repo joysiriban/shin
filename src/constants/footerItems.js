@@ -3,40 +3,20 @@ export const footerLinks = [
     title: 'Links',
     links: [
       {
-        title: 'About us',
-        link: '/about-us',
+        title: 'Rarity',
+        link: '/rarity',
         target: '_self'
       },
       {
-        title: 'Sign Up',
-        link: '/sign-up',
+        title: 'Play to Earn',
+        link: '/play',
         target: '_self'
       },
       {
-        title: 'Login',
-        link: 'https://ebank.test.com/?page=login-form',
-        target: '_blank'
-      }
-    ]
-  },
-  {
-    title: 'Resources',
-    links: [
-      {
-        title: 'Terms and Conditions',
-        link: '/pdf/terms.pdf',
-        target: '_blank'
+        title: '$SINS Token',
+        link: '/token',
+        target: '_self'
       },
-      {
-        title: 'Privacy Policy',
-        link: 'https://test.com/privacy-policy/',
-        target: '_blank'
-      },
-      {
-        title: 'Cookie Policy',
-        link: 'https://test.com/cookie-policy/',
-        target: '_blank'
-      }
     ]
   }
 ];

@@ -24,7 +24,7 @@ const AdvantageSection = () => (
                 data-sal="fade"
                 data-sal-delay="300"
                 data-sal-easing="ease-in"
-                className="text-4xl font-bold text-center text-pink-600">
+                className="text-4xl font-bold text-center text-shinred-600">
                 Advantages
               </h3>
               <ul className="list-none mt-6">
@@ -38,7 +38,7 @@ const AdvantageSection = () => (
                           >
                           <div className="flex items-center">
                             <div>
-                              <span className="text-sm font-semibold px-4 py-3 inline-block uppercase rounded-full text-pink-600 bg-pink-200 mr-3 shadow-lg">
+                              <span className="text-sm font-semibold px-4 py-3 inline-block uppercase rounded-full text-shinred-600 bg-pink-200 mr-3 shadow-lg">
                                 <FontAwesomeIcon icon={item.icon} size="1x" />
                               </span>
                             </div>

@@ -7,12 +7,13 @@ import {
   faFacebookF,
   faLinkedinIn,
   faTwitter,
+  faDiscord,
   faYoutube
 } from '@fortawesome/free-brands-svg-icons';
-import footerLogo from '../../static/images/shin_logo.png';
+import footerLogo from '../../static/images/LogoSymbol_01.png';
 import { footerLinks } from '../constants/footerItems';
 
-library.add(faInstagram, faFacebookF, faLinkedinIn, faTwitter, faYoutube);
+library.add(faInstagram, faFacebookF, faLinkedinIn, faTwitter, faDiscord, faYoutube);
 
 const Footer = () => {
   return (
@@ -22,13 +23,13 @@ const Footer = () => {
         const socialLinks = data.site.siteMetadata.socialLinks;
         return (
           <>
-            <footer className="relative bg-blue-900 pt-16 pb-6">
+            <footer style={{ backgroundColor: `#222222` }} className="relative pt-16 pb-6">
               <div className="container px-12 mx-auto">
                 <div className="w-full flex flex-wrap justify-between items-center ">
                   <div className="w-full lg:w-6/12 px-4">
                     <div className="w-1/2">
                       <a className="inline-block mr-4 whitespace-no-wrap" href="https://test.com">
-                        <img src={footerLogo} alt="TEST Logo" width="180px" />
+                        <img src={footerLogo} alt="TEST Logo" width="100px" />
                       </a>
                     </div>
                     <div className="ml-3">

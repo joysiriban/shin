@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { keyFeatureItems } from '../../constants';
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
-import heroImg from '../../../static/images/hero_aboutus.jpg';
+import aboutUsImg from '../../../static/images/AboutUs.png';
 import shinTitle from '../../../static/images/shin_title.png';
 
 const AboutUs = () => (
@@ -14,37 +14,46 @@ const AboutUs = () => (
         style={{
           minHeight: "75vh"
         }}>
-        <div className="absolute top-0 w-full h-full bg-center bg-cover"
+        <div className="absolute sm:z-0 top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundColor: '1d1d1b'
-              // backgroundImage: `url(${heroImg})`
+              backgroundImage: `url(${aboutUsImg})`
             }}>
-          <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+          <span id="blackOverlay" className="w-full h-full absolute opacity-25 bg-black"></span>
         </div>
-        <div className="container relative mx-auto">
-          <div className="flex flex-col">
-
+        
+        <div className="items-start z-50 flex flex-wrap lg:flex-row flex-col-reverse">
+          <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
           </div>
-          {/* <div className="items-center flex flex-wrap">
+          <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div className="md:pr-12">
               <h3
+                data-sal="fade"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+                className="text-4xl text-center font-bold text-shinred-600 my-6"
+                style={{
+                  fontFamily: 'Ash'
+                }}
               >
                 About Us
               </h3>
-              <div
+              <p 
                 data-sal="fade"
                 data-sal-delay="300"
-                data-sal-easing="ease-in"
-                className="text-7xl font-bold text-center text-red-600"
-              >
-              <p className="text-7xl font-bold text-center text-gray-700">
-              Shinigami Sins is more than your typical NFT collection. By owning an NFT in the Shinigami Sins Collection, you become part of Shingami Satsujin’s Army. You will be a priority in future projects. You will be with us for many years to come.
+                data-sal-easing="ease"
+                className="text-white text-center sm:z-50 font-semibold">
+              Imprisoned in the underworld for a thousand years by the ancient seal of Amaterasu (celestial sun goddess), Shinigami Satsujin gathered the evilest akuto (villains) to take vengeance and eliminate Amaterasu’s military.
               </p>
-              <p className="text-7xl font-bold text-center text-gray-700">
-              We are a team of NFT lovers. Thus, we dedicate ourselves in creative amazing NFTs with actual case use and utility for all.
+              <br></br>
+              <p 
+              data-sal="fade"
+              data-sal-delay="300"
+              data-sal-easing="ease"
+              className="text-white text-center sm:z-50 font-semibold">
+              An army made up of 5,555 unique akuto NFTs, Shinigami aims to destroy anyone in his path and reclaim his throne as the true god of the new world.
               </p>
-              </div>
-
-          </div> */}
+            </div>
+          </div>
         </div>
       </div>
     )}

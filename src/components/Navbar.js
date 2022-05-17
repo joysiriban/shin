@@ -1,7 +1,7 @@
 import React from 'react';
 
-import logoAlt from '../../static/images/shin_logo_red.png';
-import logo from '../../static/images/shin_logo_white.png';
+import logoAlt from '../../static/images/PrimaryLogo_01.png';
+import logo from '../../static/images/PrimaryLogo_02.png';
 
 const Navbar = (props) => {
   return (
@@ -30,19 +30,19 @@ const Navbar = (props) => {
                   )
               }
               alt="TEST Logo"
-              width="50px" />
+              width="150px" />
           </a>
-          <div className="flex flex-grow items-center bg-transparent lg:shadow-none">
+          <div className="hidden md:block absolute right-0 flex flex-grow items-center bg-transparent lg:shadow-none">
             <ul className="flex flex-row list-none ml-auto">
               <li className="flex items-center">
                 <a
-                  href="https://ebank.test.com/?page=login-form"
+                  href="/rarity"
                   target="_blank"
                   rel="noreferrer"
                   className={
                     (props.transparent
                       ? 'text-white hover:border-transparent'
-                      : 'text-pink-600 shadow') +
+                      : 'text-shinred-600') +
                       ' bg-transparent font-normal py-2 px-4 rounded'
                   }
                   >
@@ -51,47 +51,47 @@ const Navbar = (props) => {
               </li>
               <li className="flex items-center">
                 <a
-                  href="https://ebank.test.com/?page=login-form"
+                  href="/play"
                   target="_blank"
                   rel="noreferrer"
                   className={
                     (props.transparent
                       ? 'text-white hover:border-transparent'
-                      : 'text-pink-600 shadow') +
+                      : 'text-shinred-600') +
                       ' bg-transparent font-normal py-2 px-4 rounded'
                   }
                   >
-                  Roadmap
+                  Play to Earn
                 </a>
               </li>
               <li className="flex items-center">
                 <a
-                  href="https://ebank.test.com/?page=login-form"
+                  href="/token"
                   target="_blank"
                   rel="noreferrer"
                   className={
                     (props.transparent
                       ? 'text-white hover:border-transparent'
-                      : 'text-pink-600 shadow') +
+                      : 'text-shinred-600') +
                       ' bg-transparent font-normal py-2 px-4 rounded'
                   }
                   >
-                  FAQ
+                    $SINS Token
                 </a>
               </li>
               <li className="flex items-center">
                 <a
-                  href="https://ebank.test.com/?page=login-form"
+                  href="https://discord.com/invite/C4QB9M8bka"
                   target="_blank"
                   rel="noreferrer"
                   className={
                     (props.transparent
-                      ? 'text-white hover:border-transparent'
-                      : 'text-pink-600 shadow') +
+                      ? 'text-white border hover:border-transparent'
+                      : 'text-shinred-600') +
                       ' bg-transparent font-normal py-2 px-4 rounded'
                   }
                   >
-                  Team Shinigami
+                  Join Discord
                 </a>
               </li>
             </ul>

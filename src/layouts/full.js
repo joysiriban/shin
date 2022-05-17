@@ -27,7 +27,7 @@ const FullLayout = ({ children, seo }) => (
               data-sal="slide-up"
               data-sal-delay="100"
               data-sal-easing="ease-in-out"
-              className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              className="w-full lg:w-9/12 px-4 mt-10 ml-auto mr-auto text-center">
               <div className="py-5">
                 <div
                   data-sal="slide-left"
@@ -38,16 +38,17 @@ const FullLayout = ({ children, seo }) => (
                     alt="Who we are"
                     className="max-w-full rounded-lg shadow-lg"
                     src={shinTitle}
-                    width="400px"
+                    // width="400px"
+                    style={{width: '50vw'}}
                   />
                 </div>
                 <div className="mt-10 text-center">
                   <a
-                    href="/sign-up"
+                    href="https://discord.com/invite/C4QB9M8bka"
                     className="bg-red-700 hover:bg-red-700 text-white font-bold uppercase text-base px-8 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     style={{transition: 'all .15s ease'}}
                   >
-                    Join Discord
+                    MINT
                   </a>
                 </div>
               </div>
