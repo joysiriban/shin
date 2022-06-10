@@ -30,8 +30,8 @@ const FAQ = () => (
             When are Shinigami Sins NFTs minted?
             </p>
             <p  className="text-blue-900">
-            Presale: 30 May 2022 at 4PM UTC
-            Public Sale: 30 May 2022 at 10PM UTC
+              Presale: 11 June 2022 FREE MINT
+              Public Sale: 13 June 2022
             </p>
           </div>
   
@@ -51,8 +51,8 @@ const FAQ = () => (
             What is the minting price?
             </p>
             <p  className="text-blue-900">
-            Whitelist - 0.043 ETH
-            Public Sale - 0.056 ETH
+            Presale - FREE MINT
+            Public Sale - 0.5 SOL
             </p>
           </div>
   

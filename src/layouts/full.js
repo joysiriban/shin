@@ -44,7 +44,7 @@ const FullLayout = ({ children, seo }) => (
                 </div>
                 <div className="mt-10 text-center">
                   <a
-                    href="https://discord.com/invite/C4QB9M8bka"
+                    href="https:/mint.shinigamisins.io/"
                     className="bg-red-700 hover:bg-red-700 text-white font-bold uppercase text-base px-8 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     style={{transition: 'all .15s ease'}}
                   >
